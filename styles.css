@@ -10,7 +10,7 @@
   width: 98%;
   margin: 50px auto;
   text-align: center;
-  background-image: url(https://github.com/ckontos82/ckontos82.github.io/blob/main/laptop.jpg);
+  background-image: url("laptop.jpg");
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
@@ -19,7 +19,6 @@
 .avatar {
   width: 200px;
   border-radius: 50%;
-  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1), 0 2px 4px rgba(0, 0, 0, 0.06);
 }
 
 .skills, .connect {
