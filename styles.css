@@ -8,10 +8,10 @@ body {
 }
 
 .container {
-  max-width: 800px;
+  width: 98%;
   margin: 50px auto;
   text-align: center;
-  background-image: url(laptop.jpg);
+  background-image: url(https://github.com/ckontos82/ckontos82.github.io/blob/main/laptop.jpg);
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
