@@ -1,36 +1,140 @@
 /* styles.css */
 * {
     box-sizing: border-box;
+}
+
+body, html {
+    height: 100%;
+    width: 100%;
     margin: 0;
     padding: 0;
-    font-family: Arial, Helvetica, sans-serif}
-
-body {
-  background-image: url("./laptop.jpg");
-  background-repeat: no-repeat;
-  background-size: cover;
-  background-position: center;
+    background-color: #2f4f4f;
 }
+
+
 .container {
-  width: 98%;
-  margin: 50px auto;
-  text-align: center;
-  color: white;
-  background-image: url("./laptop.jpg");
-  background-repeat: no-repeat;
-  background-size: cover;
-  background-position: center;
+    display: flex;
+    height: 100vh;
+    width: 100vw;
 }
 
-.avatar {
-  width: 200px;
-  border-radius: 50%;
+.home-image {
+    display: flex;
+    flex-direction: column;
+    align-items:flex-start;
+    height: 100%;
+    width: 85%;
+    background-image: url(./background.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
 }
 
-.skills, .connect {
-  margin-top: 20px;
+.home-title {
+   margin-top: 10%;
+    width: 100%;
+    color: #ffebcd;
+    font-size: 80px;
+    font-weight: 600;
+    text-align: center;
 }
 
-.repositories {
-  margin-top: 10px;
+.home-subtitle {
+    margin-top: 8%;
+    width: 70%;
+    color: #ffebcd;
+    font-size: 20px;
+    text-align: justify;
+    padding: 10px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.left-column {
+    border: 3px solid #ffebcd;
+    width: 15%;
+    height: 100%;
+    display: flex;
+    flex-direction: column; 
+    align-items: flex-start;
+}
+
+.social, 
+.hard-skills,
+.languages {
+    margin-top: 10%;
+    text-align: left;
+    padding-left: 2px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: #ffebcd;
+}
+
+.social-links, 
+.skills-list, 
+.languages-list {
+    list-style: none;
+    padding-left: 2px; 
+}
+
+.left-column li {
+    margin-bottom: 10%;
+}
+
+.social-links a {
+    color: #ffebcd;
+    text-decoration: none;
+}
+
+.social-links li:hover {
+    background-color: #ff7f50;
+}
+
+.skill-bar {
+    width: 190%;
+    background-color: #dddddd;
+    height: 15px;
+    margin-top: 5px;
+    border-radius: 5px;
+}
+
+.java-progress {
+    width: 90%;
+    height: 100%;
+    border-radius: 5px;
+    background-color: #a52a2a;
+}
+
+.c-progress {
+    width: 95%;
+    height: 100%;
+    border-radius: 5px;
+    background-color: #a52a2a;
+}
+
+.sql-progress {
+    width: 85%;
+    height: 100%;
+    border-radius: 5px;
+    background-color: #a52a2a;
+}
+
+.html-progress {
+    width: 85%;
+    height: 100%;
+    border-radius: 5px;
+    background-color: #a52a2a;
+}
+
+.design-progress {
+    width: 82%;
+    height: 100%;
+    border-radius: 5px;
+    background-color: #a52a2a;
+}
+
+.left-column > img {
+    height: auto;
+    width: 100%;
+    border-bottom: 3px solid #ffebcd;
+    border-top: 3px solid #ffebcd;
 }
