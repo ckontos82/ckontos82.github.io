@@ -1,4 +1,3 @@
-/* styles.css */
 * {
     box-sizing: border-box;
 }
@@ -18,17 +17,71 @@ body, html {
     width: 100vw;
 }
 
+.left-column {
+    border: 3px solid #ffebcd;
+    width: 300px;
+    height: 100%;
+    display: flex;
+    flex-direction: column; 
+    align-items: flex-start;
+}
+
+On screens that are 992px or less, set the width to 30%
+@media screen and (max-width: 992px) {
+    .left-column {
+        width: 30%;
+    }
+}
+
+/* On screens that are 600px or less, set the width to 50% */
+@media screen and (max-width: 600px) {
+    .left-column {
+        width: 50%;
+    }
+}
+
+
 .home-image {
     display: flex;
     flex-direction: column;
     align-items:flex-start;
     height: 100%;
-    width: 85%;
+    width: calc(100vw - 300px);
     background-image: url(./background.jpg);
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
 }
+
+/* On screens that are 992px or less, set the width to 70% */
+@media screen and (max-width: 992px) {
+    .home-image {
+        width: 70%;
+    }
+}
+
+/* On screens that are 600px or less, set the width to 50% */
+@media screen and (max-width: 600px) {
+    .home-image {
+        width: 50%;
+    }
+}
+
+
+/* On screens that are 992px or less, set the width to 70% */
+@media screen and (max-width: 992px) {
+    .home-image {
+        width: 70%;
+    }
+}
+
+/* On screens that are 600px or less, set the width to 50% */
+@media screen and (max-width: 600px) {
+    .home-image {
+        width: 50%;
+    }
+}
+
 
 .home-title {
    margin-top: 10%;
@@ -49,16 +102,6 @@ body, html {
     margin-left: auto;
     margin-right: auto;
 }
-
-.left-column {
-    border: 3px solid #ffebcd;
-    width: 15%;
-    height: 100%;
-    display: flex;
-    flex-direction: column; 
-    align-items: flex-start;
-}
-
 .social, 
 .hard-skills,
 .languages {
