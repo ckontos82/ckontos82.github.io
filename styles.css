@@ -39,58 +39,6 @@ body, html {
     object-fit: cover; /* This will make the image stretch */
 }
 
-/* Apply the same changes to your media queries */
-@media screen and (max-width: 992px) {
-    .left-column {
-        width: 30%;
-    }
-
-    .home-image {
-        width: 70%;
-    }
-}
-
-@media screen and (max-width: 600px) {
-    .left-column {
-        width: 50%;
-    }
-
-    .home-image {
-        width: 50%;
-    }
-}
-
-
-/* On screens that are 992px or less, set the width to 70% */
-@media screen and (max-width: 992px) {
-    .home-image {
-        width: 70%;
-    }
-}
-
-/* On screens that are 600px or less, set the width to 50% */
-@media screen and (max-width: 600px) {
-    .home-image {
-        width: 50%;
-    }
-}
-
-
-/* On screens that are 992px or less, set the width to 70% */
-@media screen and (max-width: 992px) {
-    .home-image {
-        width: 70%;
-    }
-}
-
-/* On screens that are 600px or less, set the width to 50% */
-@media screen and (max-width: 600px) {
-    .home-image {
-        width: 50%;
-    }
-}
-
-
 .home-title {
    margin-top: 10%;
     width: 100%;
