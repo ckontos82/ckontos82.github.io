@@ -179,6 +179,10 @@ body, html {
 
 /* Responsive design for screens less than 800px wide */
 @media (max-width: 800px) {
+    .home-title {
+        padding: 10%;
+    }
+    
     .hamburger-menu {
         display: flex;
     }
