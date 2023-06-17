@@ -8,6 +8,28 @@ body, html {
     margin: 0;
     padding: 0;
     background-color: #2f4f4f;
+    overflow-x: hidden; /* Prevents horizontal scrolling */
+}
+
+.hamburger-menu {
+    display: none;
+    position: absolute;
+    top: 20px;
+    left: 20px;
+    height: 40px;
+    width: 40px;
+    flex-direction: column;
+    justify-content: space-around;
+    background-color: #ffebcd;
+    padding: 10px;
+    border-radius: 5px;
+    z-index: 9999;
+}
+
+.hamburger-menu div {
+    width: 25px;
+    height: 3px;
+    background-color: #333;
 }
 
 
@@ -138,7 +160,7 @@ body, html {
     border-top: 3px solid #ffebcd;
 }
 
-.hamburger-menu {
+/* .hamburger-menu {
     display: none;
     flex-direction: column;
     justify-content: space-around;
@@ -159,7 +181,7 @@ body, html {
     transition: all 0.3s linear;
     position: relative;
     transform-origin: 1px;
-}
+} */
 
 .menu-popup {
     display: none;

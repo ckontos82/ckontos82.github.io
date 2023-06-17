@@ -1,17 +1,11 @@
-// script.js
+document.addEventListener("DOMContentLoaded", function() {
+    var menu = document.querySelector('.hamburger-menu');
+    var leftColumn = document.querySelector('.left-column');
 
-const hamburgerMenu = document.querySelector('.hamburger-menu');
-const leftColumn = document.querySelector('.left-column');
-const popupButtons = document.querySelectorAll('.popup-button');
+    // Initially hide the left column
+    leftColumn.classList.remove("show");
 
-hamburgerMenu.addEventListener('click', () => {
-    leftColumn.classList.toggle('show');
-});
-
-popupButtons.forEach(button => {
-    button.addEventListener('click', () => {
-        const id = button.getAttribute('id');
-        const content = document.querySelector(`.${id.slice(0, -4)}`);
-        content.classList.toggle('show');
+    menu.addEventListener('click', function() {
+        leftColumn.classList.toggle('show');
     });
 });
