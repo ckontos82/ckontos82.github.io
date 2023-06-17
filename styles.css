@@ -27,6 +27,7 @@ body, html {
 }
 
 .hamburger-menu div {
+    border-radius: 3px;
     margin-left: auto;
     margin-right: auto;
     width: 50%;
