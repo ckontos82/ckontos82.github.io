@@ -20,17 +20,40 @@ body, html {
     width: 40px;
     flex-direction: column;
     justify-content: space-around;
+    align-items: center;
     background-color: #ffebcd;
-    padding: 10px;
     border-radius: 5px;
-    z-index: 9999;
+    z-index: 2;
 }
 
 .hamburger-menu div {
-    width: 25px;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
     height: 3px;
     background-color: #333;
 }
+
+.first-item {
+    margin-top: 7px;
+}
+
+.third-item {
+    margin-bottom: 7px;
+}
+
+.hamburger-menu div.change:nth-child(1) {
+    transform: rotate(45deg) translate(5px, 7px);
+}
+  
+.hamburger-menu div.change:nth-child(2) {
+    opacity: 0;
+}
+
+.hamburger-menu div.change:nth-child(3) {
+    transform: rotate(-45deg) translate(5px, -7px);
+}
+  
 
 
 .container {
