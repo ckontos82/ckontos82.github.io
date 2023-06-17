@@ -14,7 +14,6 @@ body, html {
 
 .hamburger-menu {
     display: none;
-    position: absolute;
     top: 20px;
     left: 20px;
     height: 40px;
@@ -185,6 +184,7 @@ body, html {
     }
     
     .hamburger-menu {
+        position: absolute;
         display: flex;
     }
 
