@@ -206,10 +206,18 @@ body, html {
     .home-title {
         padding: 10%;
     }
-    
+
     .hamburger-menu {
         position: absolute;
         display: flex;
+    }
+
+    .hamburger-menu:hover {
+        cursor: pointer;
+    }
+
+    .hamburger-menu:active {
+        background-color: #333;
     }
 
     .container {
