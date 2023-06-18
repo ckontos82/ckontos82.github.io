@@ -44,7 +44,7 @@ body, html {
 }
 
 .hamburger-menu div.change:nth-child(1) {
-    transform: rotate(45deg) translate(5px, 7px);
+    transform: rotate(45deg) translate(6px, 6px);
 }
   
 .hamburger-menu div.change:nth-child(2) {
@@ -52,7 +52,7 @@ body, html {
 }
 
 .hamburger-menu div.change:nth-child(3) {
-    transform: rotate(-45deg) translate(5px, -7px);
+    transform: rotate(-45deg) translate(6px, -6px);
 }
   
 
