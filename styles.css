@@ -201,7 +201,7 @@ body, html {
     padding: 10px 0;
 }
 
-/* Responsive design for screens less than 800px wide */
+/* Responsive design for screens less than 980px wide */
 @media (max-width: 980px) {
     .home-title {
         padding: 10%;
