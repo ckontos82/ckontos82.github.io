@@ -203,6 +203,10 @@ body, html {
 
 /* Responsive design for screens less than 980px wide */
 @media (max-width: 980px) {
+    .home-image {
+        background-size: 100% 100%;
+    }
+
     .home-title {
         padding: 10%;
     }
