@@ -1,7 +1,7 @@
 document.addEventListener("DOMContentLoaded", function() {
-    var menu = document.querySelector('.hamburger-menu');
-    var leftColumn = document.querySelector('.left-column');
-    var menuLines = document.querySelectorAll('.hamburger-menu div');
+    let menu = document.querySelector('.hamburger-menu');
+    let leftColumn = document.querySelector('.left-column');
+    let menuLines = document.querySelectorAll('.hamburger-menu div');
   
     // Initially hide the left column
     leftColumn.classList.remove("show");
@@ -12,5 +12,4 @@ document.addEventListener("DOMContentLoaded", function() {
         line.classList.toggle('change');
       });
     });
-  });
-  
+});
